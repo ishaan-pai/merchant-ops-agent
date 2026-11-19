@@ -9,7 +9,7 @@ from tools import get_orders, get_inventory, get_products, create_discount
 
 load_dotenv()
 
-today = date.today()
+today = date.fromisoformat(os.environ["AGENT_TODAY"]) if os.getenv("AGENT_TODAY") else date.today()
 this_monday = today - timedelta(days=today.weekday())
 last_monday = this_monday - timedelta(days=7)
 prior_monday = this_monday - timedelta(days=14)

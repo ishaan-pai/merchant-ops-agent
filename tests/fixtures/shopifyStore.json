@@ -1,0 +1,1261 @@
+{
+  "_about": "Frozen Shopify data for CI evals. AGENT_TODAY=2026-11-19. Last week (Nov 9-15) has 14 orders; the Gift Card was set to DRAFT after Nov 8, which explains the drop from the week before.",
+  "products": [
+    {
+      "id": "gid://shopify/Product/1001",
+      "title": "Classic Tee",
+      "status": "ACTIVE",
+      "totalInventory": 42,
+      "variants": {
+        "nodes": [
+          {
+            "title": "S",
+            "price": "25.00",
+            "inventoryQuantity": 12
+          },
+          {
+            "title": "M",
+            "price": "25.00",
+            "inventoryQuantity": 18
+          },
+          {
+            "title": "L",
+            "price": "25.00",
+            "inventoryQuantity": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1002",
+      "title": "Hoodie",
+      "status": "ACTIVE",
+      "totalInventory": 3,
+      "variants": {
+        "nodes": [
+          {
+            "title": "M",
+            "price": "60.00",
+            "inventoryQuantity": 1
+          },
+          {
+            "title": "L",
+            "price": "60.00",
+            "inventoryQuantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1003",
+      "title": "Coffee Mug",
+      "status": "ACTIVE",
+      "totalInventory": 0,
+      "variants": {
+        "nodes": [
+          {
+            "title": "Default Title",
+            "price": "15.00",
+            "inventoryQuantity": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1004",
+      "title": "Sticker Pack",
+      "status": "ACTIVE",
+      "totalInventory": 120,
+      "variants": {
+        "nodes": [
+          {
+            "title": "Default Title",
+            "price": "5.00",
+            "inventoryQuantity": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1005",
+      "title": "Gift Card",
+      "status": "DRAFT",
+      "totalInventory": 0,
+      "variants": {
+        "nodes": [
+          {
+            "title": "Default Title",
+            "price": "50.00",
+            "inventoryQuantity": 0
+          }
+        ]
+      }
+    }
+  ],
+  "orders": [
+    {
+      "name": "#1001",
+      "processedAt": "2026-10-26T08:27:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "10.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1002",
+      "processedAt": "2026-10-26T13:39:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "110.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 2
+          },
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1003",
+      "processedAt": "2026-10-26T13:51:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1004",
+      "processedAt": "2026-10-26T18:12:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "10.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1005",
+      "processedAt": "2026-10-27T17:58:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "130.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          },
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1006",
+      "processedAt": "2026-10-28T14:41:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "60.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1007",
+      "processedAt": "2026-10-28T15:49:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1008",
+      "processedAt": "2026-10-28T18:40:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1009",
+      "processedAt": "2026-10-28T18:41:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1010",
+      "processedAt": "2026-10-29T08:14:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "10.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1011",
+      "processedAt": "2026-10-29T11:44:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "5.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1012",
+      "processedAt": "2026-10-29T18:34:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1013",
+      "processedAt": "2026-10-29T21:07:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "120.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1014",
+      "processedAt": "2026-10-30T15:46:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1015",
+      "processedAt": "2026-10-31T11:40:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "10.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1016",
+      "processedAt": "2026-10-31T15:49:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1017",
+      "processedAt": "2026-10-31T18:34:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "30.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          },
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1018",
+      "processedAt": "2026-10-31T19:32:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "150.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1019",
+      "processedAt": "2026-11-01T20:07:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "55.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          },
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1020",
+      "processedAt": "2026-11-02T09:15:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1021",
+      "processedAt": "2026-11-02T09:28:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "55.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1022",
+      "processedAt": "2026-11-02T10:57:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "85.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          },
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1023",
+      "processedAt": "2026-11-02T16:08:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "25.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1024",
+      "processedAt": "2026-11-02T19:27:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "25.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1025",
+      "processedAt": "2026-11-03T09:26:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1026",
+      "processedAt": "2026-11-03T10:35:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "60.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          },
+          {
+            "name": "Classic Tee",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1027",
+      "processedAt": "2026-11-03T11:40:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1028",
+      "processedAt": "2026-11-03T17:30:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "35.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          },
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1029",
+      "processedAt": "2026-11-04T09:40:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1030",
+      "processedAt": "2026-11-04T12:50:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "40.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1031",
+      "processedAt": "2026-11-04T13:43:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1032",
+      "processedAt": "2026-11-05T08:17:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "20.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1033",
+      "processedAt": "2026-11-05T14:27:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "60.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1034",
+      "processedAt": "2026-11-05T16:21:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "25.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1035",
+      "processedAt": "2026-11-06T08:15:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1036",
+      "processedAt": "2026-11-06T14:37:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "5.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1037",
+      "processedAt": "2026-11-06T18:51:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "20.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Coffee Mug",
+            "quantity": 1
+          },
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1038",
+      "processedAt": "2026-11-07T20:43:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "20.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1039",
+      "processedAt": "2026-11-07T21:35:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1040",
+      "processedAt": "2026-11-08T12:00:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1041",
+      "processedAt": "2026-11-08T17:17:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Gift Card",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1042",
+      "processedAt": "2026-11-09T14:41:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "65.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          },
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1043",
+      "processedAt": "2026-11-10T08:03:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "10.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1044",
+      "processedAt": "2026-11-10T11:36:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "5.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1045",
+      "processedAt": "2026-11-10T17:16:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "25.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1046",
+      "processedAt": "2026-11-11T10:55:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "65.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 2
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1047",
+      "processedAt": "2026-11-13T09:05:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "30.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1048",
+      "processedAt": "2026-11-13T16:39:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "50.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1049",
+      "processedAt": "2026-11-14T13:04:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "15.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Coffee Mug",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1050",
+      "processedAt": "2026-11-14T13:24:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "85.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          },
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1051",
+      "processedAt": "2026-11-14T15:32:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "5.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1052",
+      "processedAt": "2026-11-14T19:10:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "25.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1053",
+      "processedAt": "2026-11-14T19:36:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "135.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1054",
+      "processedAt": "2026-11-15T09:43:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "150.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1055",
+      "processedAt": "2026-11-15T12:39:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "90.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 1
+          },
+          {
+            "name": "Coffee Mug",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1056",
+      "processedAt": "2026-11-16T13:48:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "145.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          },
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1057",
+      "processedAt": "2026-11-17T18:44:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "30.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          },
+          {
+            "name": "Sticker Pack",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1058",
+      "processedAt": "2026-11-18T08:18:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "120.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Hoodie",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1059",
+      "processedAt": "2026-11-19T09:01:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "25.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Classic Tee",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "#1060",
+      "processedAt": "2026-11-19T09:03:00Z",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "10.00",
+          "currencyCode": "CAD"
+        }
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "name": "Sticker Pack",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  ]
+}
