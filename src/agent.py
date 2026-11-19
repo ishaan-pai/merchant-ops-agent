@@ -1,5 +1,5 @@
 # src/agent.py
-import sys
+import sys, os
 from datetime import date, timedelta
 from dotenv import load_dotenv
 from langchain.agents import create_agent

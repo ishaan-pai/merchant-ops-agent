@@ -3,7 +3,7 @@
 Offline eval harness.
 
 Freezes the agent's "today" and swaps the Shopify GraphQL client for one that
-serves tests/fixtures/shopify_store.json, so CI results only change when the
+serves tests/fixtures/shopifyStore.json, so CI results only change when the
 agent changes. Claude is still called for real.
 """
 import json
@@ -19,7 +19,7 @@ os.environ["AGENT_TODAY"] = "2026-11-19"
 os.environ.setdefault("SHOPIFY_SHOP", "eval-fixture")
 
 STORE = json.loads(
-    (Path(__file__).parent / "fixtures" / "shopify_store.json").read_text(encoding="utf-8")
+    (Path(__file__).parent / "fixtures" / "shopifyStore.json").read_text(encoding="utf-8")
 )
 ORDER_RANGE = re.compile(r"processed_at:>='([^']+)' processed_at:<'([^']+)'")
 TITLE_SEARCH = re.compile(r"title:\*(.*)\*")
